@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main (){
+
+    printf("Desafio Cartas Super Trunfo- nivel novato \n")
  // variaveis carta 1
  char estado1[15];
  char codigo1[4];
