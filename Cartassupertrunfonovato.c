@@ -20,10 +20,10 @@ int main (){
     int pontosturisticos2;
 
     // Entrada de Dados da Carta 1
-    printf("Digite seu estado: ");
+    printf("Digite seu estado: "); ///sigla do estado
     scanf("%s", estado1);
 
-    printf("Codigo: ");
+    printf("Codigo: "); ///sigla do estado e um numeral
     scanf("%s", codigo1);
 
     printf("Nome da cidade: ");
@@ -42,10 +42,10 @@ int main (){
     scanf("%d", &pontosturisticos1);
 
     // Entrada dos Dados da Carta 2
-    printf("\nDigite seu estado: ");
+    printf("\nDigite seu estado: "); ///sigla do estado
     scanf("%s", estado2);
 
-    printf("Codigo: ");
+    printf("Codigo: "); ///sigla do estado e um numeral
     scanf("%s", codigo2);
 
     printf("Nome da cidade: ");
@@ -83,7 +83,7 @@ int main (){
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Quantidade de Pontos turisticos: %d\n", pontosturisticos2);
 
-    
+
     return 0;
 
 }
