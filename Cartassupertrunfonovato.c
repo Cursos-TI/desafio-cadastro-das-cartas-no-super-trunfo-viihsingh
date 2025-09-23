@@ -4,7 +4,7 @@ int main (){
     // variaveis carta 1
     char estado1[15];
     char codigo1[5];
-    char cidade1[20];
+    char cidade1[50];
     int populacao1;
     float area1;
     float pib1;
@@ -13,7 +13,7 @@ int main (){
     //variaveis carta 2
     char estado2[15];
     char codigo2[5];
-    char cidade2[20];
+    char cidade2[50];
     int populacao2;
     float area2;
     float pib2;
@@ -27,7 +27,7 @@ int main (){
     scanf("%s", codigo1);
 
     printf("Nome da cidade: ");
-    scanf("%s", cidade1);
+    scanf(" %s[^\n]", cidade1); 
 
     printf("Populacao: ");
     scanf("%d", &populacao1);
@@ -42,14 +42,14 @@ int main (){
     scanf("%d", &pontosturisticos1);
 
     // Entrada dos Dados da Carta 2
-    printf("\nDigite seu estado: "); ///sigla do estado
+    printf("Digite seu estado: \n"); ///sigla do estado
     scanf("%s", estado2);
 
     printf("Codigo: "); ///sigla do estado e um numeral
     scanf("%s", codigo2);
 
     printf("Nome da cidade: ");
-    scanf("%s", cidade2);
+    scanf(" %s[^\n]", cidade2); 
 
     printf("Populacao: ");
     scanf("%d", &populacao2);
@@ -83,7 +83,5 @@ int main (){
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Quantidade de Pontos turisticos: %d\n", pontosturisticos2);
 
-
     return 0;
-
 }
